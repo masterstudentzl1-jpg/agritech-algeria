@@ -20,7 +20,7 @@ export default function ContactPage() {
         {/* Info */}
         <div>
           <h2 style={{ color: '#14532d', fontSize: '1.4rem', fontWeight: 'bold', marginBottom: '24px' }}>Get In Touch</h2>
-          {[['📍', 'Address', 'Algiers, Algeria'], ['📧', 'Email', 'contact@agritech-dz.com'], ['📞', 'Phone', '+213 555 123 456'], ['🕒', 'Hours', 'Sun–Thu: 8am – 5pm']].map(([icon, label, value]) => (
+          {[['📍', 'Address', 'Algiers, Algeria'], ['📧', 'Email', 'contact@agritech-dz.com'], ['📞', 'Phone', '+213 555 555 555'], ['🕒', 'Hours', 'Sun–Thu: 8am – 5pm']].map(([icon, label, value]) => (
             <div key={label} style={{ display: 'flex', alignItems: 'flex-start', gap: '16px', marginBottom: '24px' }}>
               <span style={{ fontSize: '1.5rem' }}>{icon}</span>
               <div>
