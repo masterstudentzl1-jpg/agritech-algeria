@@ -42,7 +42,7 @@ export default function ContactPage() {
             </div>
           ) : (
             <form onSubmit={handleSubmit}>
-              {[['name', 'Your Name', 'text', 'Ahmed Benali'], ['email', 'Email', 'email', 'you@example.com']].map(([key, label, type, placeholder]) => (
+              {[['name', 'Your Name', 'text', 'your name'], ['email', 'Email', 'email', 'you@example.com']].map(([key, label, type, placeholder]) => (
                 <div key={key} style={{ marginBottom: '20px' }}>
                   <label style={{ display: 'block', fontWeight: 'bold', color: '#374151', marginBottom: '6px' }}>{label}</label>
                   <input type={type} placeholder={placeholder} value={form[key]}
