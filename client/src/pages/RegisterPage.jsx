@@ -26,7 +26,7 @@ export default function RegisterPage() {
         {error && <p style={{ backgroundColor: '#fee2e2', color: '#ef4444', padding: '10px', borderRadius: '8px', marginBottom: '20px', fontSize: '0.9rem' }}>{error}</p>}
 
         <form onSubmit={handleSubmit}>
-          {[['name', 'Full Name', 'text', 'Ahmed Benali'], ['email', 'Email', 'email', 'you@example.com'], ['password', 'Password', 'password', '••••••••']].map(([key, label, type, placeholder]) => (
+          {[['name', 'Full Name', 'text', 'your name'], ['email', 'Email', 'email', 'you@example.com'], ['password', 'Password', 'password', '••••••••']].map(([key, label, type, placeholder]) => (
             <div key={key} style={{ marginBottom: '20px' }}>
               <label style={{ display: 'block', fontWeight: 'bold', color: '#374151', marginBottom: '6px' }}>{label}</label>
               <input type={type} placeholder={placeholder} value={form[key]}
