@@ -28,7 +28,7 @@ export default function Footer() {
           <p style={{ color: '#bbf7d0', fontSize: '0.9rem', lineHeight: '2' }}>
             📍 Algiers, Algeria<br />
             📧 contact@agritech-dz.com<br />
-            📞 +213 555 123 456
+            📞 +213 555 555 555
           </p>
         </div>
       </div>
