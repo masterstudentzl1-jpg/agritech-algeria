@@ -19,17 +19,14 @@ export default function Navbar() {
 
   return (
     <nav className="navbar">
-      {/* LOGO */}
-      <Link to="/" className="nav-logo">
-        <div className="logo-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2">
-            <path d="M12 2a10 10 0 1 0 0 20A10 10 0 0 0 12 2z" opacity=".3"/>
-            <path d="M12 6v6l4 2"/>
-            <path d="M5 3l2 2M19 3l-2 2M12 2v2"/>
-          </svg>
-        </div>
-        AgroSmart <span>DZ</span>
-      </Link>
+    {/* LOGO */}
+<Link to="/" className="nav-logo">
+  <img 
+    src="/logo.png" 
+    alt="AgroSmart DZ" 
+    style={{ height: '45px', objectFit: 'contain' }} 
+  />
+</Link>
 
       {/* DESKTOP LINKS */}
       <ul className={`nav-links ${menuOpen ? 'open' : ''}`}>
