@@ -26,6 +26,7 @@ export default function Navbar() {
     alt="AgroSmart DZ" 
     style={{ height: '45px', objectFit: 'contain' }} 
   />
+   AgroSmart <span>DZ</span>
 </Link>
 
       {/* DESKTOP LINKS */}
